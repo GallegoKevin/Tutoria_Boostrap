@@ -41,7 +41,6 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 ## TABLET
 
-![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
 ## MOBILE
 
 
