@@ -31,7 +31,7 @@ Es un componente de interfaz de usuario que se utiliza para mostrar una serie de
 ### NAVBAR
 Es un componente que proporciona una estructura predefinida y estilos CSS para crear barras de navegación responsivas.
 
-![App Screenshot](https://i.ibb.co/6XG4997/Navbar.gif)
+![App Screenshot](https://i.ibb.co/HYdGbfC/nav.gif)
 
 
 
