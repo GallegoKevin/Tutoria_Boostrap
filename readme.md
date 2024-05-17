@@ -49,3 +49,5 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 ## MOBILE
 
 ![mobile](https://i.ibb.co/Gfw84j6/celular.gif)
+
+![mobile](https://i.ibb.co/Gfw84j6/celular.gif)
