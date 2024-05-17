@@ -43,7 +43,7 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 
 ## TABLET
-![Desktop](https://i.ibb.co/XLkF0CG/phone.gif)
+![Desktop](https://i.ibb.co/CQjTbt6/tablet.gif)
 
 
 ## MOBILE
