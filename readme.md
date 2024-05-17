@@ -18,7 +18,7 @@ Es un componente flexible y extensible que se utiliza para representar contenido
 ## MODAL
 Es una ventana emergente o pop-up que se superpone sobre el contenido principal de una página web.
 
-![App Screenshot](https://i.ibb.co/VgVWFGM/modal2.gif)
+![App Screenshot](https://i.ibb.co/9bn9x0y/modal2.gif)
 
 ### CAROUSEL
 Es un componente de interfaz de usuario que se utiliza para mostrar una serie de elementos 
