@@ -18,7 +18,7 @@ Es un componente flexible y extensible que se utiliza para representar contenido
 ## MODAL
 Es una ventana emergente o pop-up que se superpone sobre el contenido principal de una página web.
 
-![Descripción del GIF](https://s12.gifyu.com/images/SfHcz.md.gif)
+![Descripción del GIF](https://ruta.al.gif/ejemplo.gif)
 
 ### CAROUSEL
 Es un componente de interfaz de usuario que se utiliza para mostrar una serie de elementos 
@@ -36,13 +36,12 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 
 ## DESKTOP
-![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
 
+![Desktop](https://i.ibb.co/GMvxLrN/Mi-V-deo.gif)
 
 ## TABLET
 
 ![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
-
 ## MOBILE
 
 
