@@ -1,8 +1,5 @@
 # BOOSTRAP
 
-![App Screenshot](https://www.neolo.com/blog/wp-content/uploads/2021/04/bootstrap-que-es.png)
-
-
 
 ### **Boostrap:** Es un framework de código abierto que proporciona herramientas y estilos predefinidos para el desarrollo de sitios web y aplicaciones web responsivas.
 
