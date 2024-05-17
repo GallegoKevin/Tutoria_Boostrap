@@ -40,10 +40,10 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 ## DESKTOP
 
-![Desktop](https://i.ibb.co/GMvxLrN/Mi-V-deo.gif)
+
 
 ## TABLET
-
+![Desktop](https://i.ibb.co/XLkF0CG/phone.gif))
 ## MOBILE
 
 
