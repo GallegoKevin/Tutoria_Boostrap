@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOSTRAP-WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo-white.png">
+</head>
+
+<body class="bg-img">
+
+
+
+    <div class="container  bg-transparent rounded-3  px-0">
+
+        <!--HEADER-->
+        <header class="bg-header rounded-3 ">
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white glowing" href="./index.html">
+                        <img src="./img/logo-white.png" alt="Logo" width="30" height="30"
+                            class="d-inline-block align-text-top">
+                        FuturGlobalTech
+                    </a>
+                    <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item px-1 mb-1">
+                                <a class="nav-link text-white rounded-3 text-center " href="./index.html"><i
+                                        class="fa-solid fa-house px-1"></i>Inicio</a>
+                            </li>
+
+                            <li class="nav-item px-1 mb-1">
+                                <a class="nav-link text-white rounded-3 text-center  "
+                                    href="./nosotros.html"><i class="fas fa-users px-1"></i>Nosotros</a>
+                            </li>
+
+                            <li class="nav-item px-1 mb-1">
+                                <a class="nav-link text-white rounded-3 text-center nav--active " href="./productos.html"><i
+                                        class="fas fa-box-open px-1"></i>Productos</a>
+                            </li>
+
+                            <li class="nav-item px-1 mb-1">
+                                <a class="nav-link text-white rounded-3 text-center" href="./servicios.html"><i
+                                        class="fas fa-tools px-1"></i>Servicios</a>
+                            </li>
+
+                            <li class="nav-item px-1 mb-1">
+                                <a class="nav-link text-white rounded-3 text-center" href="./contacto.html"> <i
+                                        class="fas fa-envelope px-1"></i>Contacto</a>
+                            </li>
+                        </ul>
+
+                        <form class="d-flex justify-content-center align-items-center" role="search">
+                            <button class="btn btn-transparent me-2 text-white border bg-login" data-bs-toggle="modal"
+                              data-bs-target="#loginModal" type="button">
+                              Login
+                            </button>
+                            <button class="btn text-white bg-signup" data-bs-toggle="modal" data-bs-target="#registerModal"
+                              type="button">
+                              Registrarse
+                            </button>
+                          </form>
+              
+                          <!-- Modal de Iniciar sesión -->
+                          <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header bg-dark">
+                                  <h5 class="modal-title text-white" id="loginModalLabel">Iniciar sesión</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="username" class="form-label">Usuario</label>
+                                      <input type="text" class="form-control" id="username" placeholder="Ingresa tu usuario">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="password" class="form-label">Contraseña</label>
+                                      <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-primary">Iniciar sesión</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+              
+                          <!-- Modal de Registrarse -->
+                          <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header bg-dark">
+                                  <h5 class="modal-title text-white" id="registerModalLabel">Registrarse</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="registerUsername" class="form-label">Usuario</label>
+                                      <input type="text" class="form-control" id="registerUsername" placeholder="Ingresa tu usuario">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="registerEmail" class="form-label">Correo electrónico</label>
+                                      <input type="email" class="form-control" id="registerEmail"
+                                        placeholder="Ingresa tu correo electrónico">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="registerPassword" class="form-label">Contraseña</label>
+                                      <input type="password" class="form-control" id="registerPassword"
+                                        placeholder="Ingresa tu contraseña">
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-primary">Registrarse</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+        </header>
+
+        <!--Main-->
+
+        <main>
+
+
+            <!-- productos 1-->
+            <div id="carouselProductos" class="carousel slide my-1 rounded-3" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active rounded-3">
+                        <video width="100%" muted="" loop="1" autoplay="">
+                            <source src="./img/Model-X.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <div class="carousel-item rounded-3">
+                        <video width="100%" muted="" loop="1" autoplay="">
+                            <source src="./img/Model-S.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="carousel-item rounded-3">
+                        <img src="./img/MEG Aegis.png" class="d-block w-100" alt="Producto 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <!-- Sección de productos -->
+            <div class="container bg-color rounded-3 mb-2">
+
+                <div class="mt-2">
+                    <h2 class="display-6 fw-bold text-center pt-2 h2-first">DESKTOPS</h2>
+                </div>
+
+                <div class="row rounded-3">
+
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mx-auto pb-3">
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Strix-G10CE_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strix G10CE</h5>
+                                    <p class="card-text">The Strix G10CE reaches another level of gaming realism with up
+                                        to an 11th Gen Intel® Core™ i7-11700KF processor and new NVIDIA® GeForce RTX™
+                                        3060 graphics. </p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Strix-GT15_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strix GT15</h5>
+                                    <p class="card-text">Designed inside and out for a superior gameplay, t compact
+                                        Windows 10 Pro gaming desktop uses up to an NVIDIA® GeForce® RTX 2070 SUPER™
+                                        graphics card.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Strix-GT35_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strix G35CA</h5>
+                                    <p class="card-text">Fast-paced gameplay is smooth as silk with a GeForce RTX
+                                        graphics card and a overclocked 13th Gen Intel® Core i9-13Gen CPU. While
+                                        next-gen DDR5-4800MHz RAM .</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-G22CH_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">G22CH</h5>
+                                    <p class="card-text">ROG G22 delivers unparalleled performance. Take your gaming to
+                                        the next level with a 13th Gen Intel® Core™ Processor and an NVIDIA® GeForce®
+                                        RTX 40 series GPU. </p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- productos 2-->
+
+            <div id="carousel2" class="carousel slide my-1 rounded-3" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active rounded-3">
+                        <img src="./img/imp-1.jpg" class="d-block w-100" alt="Producto 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/imp-2.jpg" class="d-block w-100" alt="Producto 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/imp-3.jpg" class="d-block w-100" alt="Producto 6">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+
+            <!-- Sección de productos -->
+            <div class="container bg-group rounded-3 mb-2">
+
+                <div class="mt-2">
+                    <h2 class="display-6 fw-bold text-center pt-2 text-danger">IMPRESORAS</h2>
+                </div>
+
+                <div class="row rounded-3">
+
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mx-auto pb-3">
+
+
+
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/315b3575feefd0dbc1e00ba82507dc30e4e482cc/original?assetDescr=latin-ecotank-photo_fg-l8160.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">EcoTank L8160</h5>
+                                    <p class="card-text">Impresiones sin bordes hasta tamaño A4
+                                        Tintas fotográficas en color Claria® ET 6
+                                        Resolución de hasta 5.760 x 1440 ppp.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/0cca8ca15e9675a34fdd29eeb3123a204ab293ad/original?use=productpictures&hybrisId=B2C&assetDescr=latin-ecotank-product-tile_L3210"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">EcoTank L3210</h5>
+                                    <p class="card-text">La Impresora multifuncional que ofrece a las familias,
+                                        estudiantes y profesionales un costo de impresión ultra bajo.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/80cc06ec20ecb781bb55a47987179a40a9ea8025/original?use=productpictures&hybrisId=B2C&assetDescr=latin-ecotank-product-tile_L6270"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto 4</h5>
+                                    <p class="card-text">Es multifuncional y ofrece varias funciones como lo son el ADF,
+                                        impresión a doble cara automática, Wi-Fi, Wi-Fi Direct, Ethernet.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- productos 2 -->
+            <div id="carousel3" class="carousel slide my-1 rounded-3" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active rounded-3">
+                        <img src="./img/iml-1.webp" class="d-block w-100 rounded-3" alt="Producto 7">
+                    </div>
+                    <div class="carousel-item rounded-3">
+                        <img src="./img/iml-2.jpg" class="d-block w-100 rounded-3" alt="Producto 8">
+                    </div>
+                    <div class="carousel-item rounded-3">
+                        <img src="./img/iml-3.jpg" class="d-block w-100 rounded-3" alt="Producto 9">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+
+
+
+
+            <!-- Sección de productos -->
+            <div class="container bg-suscribe rounded-3 mb-2">
+
+                <div class="mt-2">
+                    <h2 class="display-6 fw-bold text-center pt-2 text-white">LAPTOPS</h2>
+                </div>
+
+                <div class="row rounded-3">
+
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mx-auto pb-3">
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Flow-X16_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Flow X16</h5>
+                                    <p class="card-text">Ultra Impressive - Up to Windows 11 Pro, 13th Gen Intel® Core™
+                                        i9-13900H processor, and GeForce RTX™ 4070 Laptop GPU.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Zephyrus-Duo-16_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zephyrus Duo 16</h5>
+                                    <p class="card-text">Windows 11 , AMD Ryzen™ 9 7945HX Mobile Processor, NVIDIA®
+                                        GeForce RTX™ 4090 Laptop GPU, 32GB DDR5 RAM.</p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Strix-Scar-SE_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strix Scar 17 SE</h5>
+                                    <p class="card-text">Windows 11 , Intel® Core™ i9 12950HX processor with 16 cores
+                                        and
+                                        24 threads, and NVIDIA® GeForce RTX™ 3080 Ti Laptop </p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.asus.com/us/site/gaming/assets/images/category/ROG-Zephyrus-G14_cat_KV.webp"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zephyrus G14</h5>
+                                    <p class="card-text"> Asus Zephyrus G14's premium chassis strikes the perfect
+                                        balance between durability and performance with windows 11. </p>
+                                    <a href="#" class="btn btn-color btn-block">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        <!--Footer-->
+
+
+        <footer class="bg-header text-light">
+            <div class="container py-1 pt-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                        <a class="navbar-brand text-white glowing tex d-flex align-items-center justify-content-start"
+                            style="font-size: 16px;" href="#">
+                            <img src="./img/logo-white.png" alt="Logo" width="30" height="30" class="d-inline-block">
+                            <span class="ms-2">FuturGlobalTech</span>
+                        </a>
+
+
+                        <p class="mt-3" style="font-size: 14px;">FuturGlobalTech es una empresa líder en soluciones
+                            tecnológicas y venta de equipos de cómputo, proporcionando innovación y eficiencia a través
+                            de productos y servicios especializados.
+                        </p>
+
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/" class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-facebook-f" ></i></a></li>
+                            <li class="list-inline-item"><a href="https://x.com/home" class="text-decoration-none text-white icon-bg" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://pe.linkedin.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                          </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-2 " style="font-size: 16px;">Enlaces Rápidos</h5>
+                        <hr class="mt-2 mb-2">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="./index.html" class="link text-decoration-none text-white"> <i
+                                  class="fas fa-home me-3"></i>Inicio</a></li>
+                            <li><a href="./nosotros.html" class="link text-decoration-none text-white"><i
+                                  class="fas fa-users me-3"></i>Nosotros</a></li>
+                            <li><a href="./productos.html " class="link text-decoration-none text-white"><i
+                                  class="fas fa-box-open  me-3"></i>Productos</a></li>
+                            <li><a href="./servicios.html" class="link text-decoration-none text-white"><i
+                                  class="fas fa-tools me-3"></i>Servicios</a></li>
+                            <li><a href="./contacto.html" class="link text-decoration-none text-white"><i
+                                  class="fas fa-envelope  me-3"></i>Contacto</a></li>
+                          </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-1" style="font-size: 16px;">Contacto</h5>
+                        <hr class="mt-2 mb-2">
+                        <ul class="list-unstyled mb-4">
+                            <li><i class="fa-solid fa-location-dot me-3"></i> Dirección, Ciudad</li>
+                            <li><i class="fas fa-envelope me-3"></i> ventas@futurglobaltech.com</li>
+                            <li><i class="fas fa-phone me-3"></i> +1 (123) 456-7890</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-1" style="font-size: 16px;">Políticas</h5>
+                        <hr class="mt-2 mb-2">
+                        <ul class="list-unstyled mb-2">
+                            <li><a href="#" class="text-decoration-none text-white">Política de Privacidad</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Términos y Condiciones</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Política de Cookies</a></li>
+                        </ul>
+                        <div class="container pt4 d-flex justify-content-start">
+                            <a href="#" class="text-decoration-none text-white text-center">
+                                <i class="fas fa-book-open fa-3x"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="mt-2 mb-2 ">
+                <div class="text-center mb-2 p-0">
+                    <p> &copy; 2024 FuturGlobalTech - Derechos Reservados </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

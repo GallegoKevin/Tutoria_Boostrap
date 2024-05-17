@@ -1,0 +1,179 @@
+@charset "UTF-8";
+.bg-header {
+  background: linear-gradient(90deg, rgb(131, 27, 11) 0%, rgba(165, 16, 58, 0.816) 50%, rgb(131, 13, 44) 100%) !important;
+}
+
+.bg-img {
+  background-image: url("./img/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #790220 !important;
+  font-weight: 600;
+  animation: cambioColor 4s infinite alternate;
+}
+
+.nav--active {
+  color: #790220 !important;
+  font-weight: 600;
+  animation: cambioColor 4s infinite alternate;
+}
+
+/*Animación de Nav*/
+@keyframes cambioColor {
+  0% {
+    background: linear-gradient(90deg, rgba(218, 198, 246, 0.9) 0%, rgba(186, 135, 236, 0.9) 100%);
+  }
+  50% {
+    background: linear-gradient(90deg, rgba(255, 214, 172, 0.9) 0%, rgba(255, 171, 145, 0.9) 100%);
+  }
+  100% {
+    background: linear-gradient(90deg, rgba(253, 147, 227, 0.9) 0%, rgba(255, 83, 198, 0.9) 100%);
+  }
+}
+/*Logo*/
+.glowing {
+  animation: glow 4s infinite alternate;
+}
+
+/*Animación de Logo*/
+@keyframes glow {
+  0% {
+    filter: drop-shadow(-2px -2px 2px rgb(120, 54, 212)) drop-shadow(2px 2px 2px rgb(132, 21, 243));
+  }
+  50% {
+    filter: drop-shadow(-2px -2px 2px rgb(241, 155, 68)) drop-shadow(2px 2px 2px rgb(250, 72, 17));
+  }
+  100% {
+    filter: drop-shadow(-2px -2px 2px rgb(226, 70, 187)) drop-shadow(2px 2px 2px rgb(209, 4, 141));
+  }
+}
+/*Boton registrarse y iniciar sesión*/
+.bg-signup {
+  background: linear-gradient(90deg, #FF5733, #FF3333);
+  border: none !important;
+  font-weight: 600;
+}
+
+.bg-signup:hover {
+  background: linear-gradient(90deg, #b0a3f7, #4133ff);
+  border: none !important;
+}
+
+.bg-login {
+  background: transparent;
+  font-weight: 600;
+}
+
+.bg-login:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(128, 128, 128, 0.5) 100%);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+/*Toogler*/
+.navbar-toggler {
+  border: 1px solid white;
+  color: white;
+  box-shadow: none !important;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/*Degradado de Botones*/
+.btn-color {
+  background: linear-gradient(135deg, #a80054, #ff650c);
+  color: white !important;
+  border: none !important;
+  font-weight: 600 !important;
+}
+
+.btn-color:hover {
+  background: linear-gradient(135deg, #f03693, #e4f046);
+}
+
+.btn-red {
+  background-color: #55506d; /* Fondo rojo */
+  border-radius: 50%;
+}
+
+/*Carousel*/
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #7a0422;
+}
+
+/*background */
+.bg-color {
+  background: linear-gradient(90deg, rgb(222, 180, 230) 0%, rgba(208, 186, 248, 0.816) 50%, rgb(255, 203, 217) 100%);
+}
+
+.h2-first {
+  background: linear-gradient(to right, #3336c5, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.h2-second {
+  background: linear-gradient(90deg, #ec9136, #ff4d00, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+
+.bg-suscribe {
+  background: linear-gradient(135deg, #000000, #000794);
+  opacity: 0.9;
+}
+
+.bg-cont {
+  background: linear-gradient(90deg, rgba(180, 168, 168, 0.6509803922) 0%, #d5d0e7 50%, #e2ddd0 100%);
+  color: #000000;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.bg-group {
+  background: linear-gradient(90deg, rgba(124, 196, 255, 0.6509803922) 0%, #bbd4e4 50%, #88d0da 100%);
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.bg-nosotros {
+  background: linear-gradient(135deg, #7543a3, #9358f3, #c92a7a);
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/*CARD*/
+.card-body {
+  border-top: 2px solid red !important;
+}
+
+/*ICON*/
+.icon-bg {
+  border: 1px solid transparent;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.icon-bg:hover {
+  background: linear-gradient(90deg, rgba(0, 140, 255, 0.5) 0%, rgba(158, 214, 236, 0.5) 100%);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}/*# sourceMappingURL=styles.css.map */

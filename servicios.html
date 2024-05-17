@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOSTRAP-WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo-white.png">
+</head>
+
+<body class="bg-img">
+
+
+
+    <div class="container  bg-transparent rounded-3  px-0">
+
+        <!--HEADER-->
+        <header class="bg-header rounded-3 ">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+              <div class="container-fluid">
+                  <a class="navbar-brand text-white glowing" href="./index.html">
+                      <img src="./img/logo-white.png" alt="Logo" width="30" height="30"
+                          class="d-inline-block align-text-top">
+                      FuturGlobalTech
+                  </a>
+                  <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                          <li class="nav-item px-1 mb-1">
+                              <a class="nav-link text-white rounded-3 text-center " href="./index.html"><i
+                                      class="fa-solid fa-house px-1"></i>Inicio</a>
+                          </li>
+
+                          <li class="nav-item px-1 mb-1">
+                              <a class="nav-link text-white rounded-3 text-center   "
+                                  href="./nosotros.html"><i class="fas fa-users px-1"></i>Nosotros</a>
+                          </li>
+
+                          <li class="nav-item px-1 mb-1">
+                              <a class="nav-link text-white rounded-3 text-center" href="./productos.html"><i
+                                      class="fas fa-box-open px-1"></i>Productos</a>
+                          </li>
+
+                          <li class="nav-item px-1 mb-1">
+                              <a class="nav-link text-white rounded-3 text-center nav--active" href="./servicios.html"><i
+                                      class="fas fa-tools px-1"></i>Servicios</a>
+                          </li>
+
+                          <li class="nav-item px-1 mb-1">
+                              <a class="nav-link text-white rounded-3 text-center" href="./contacto.html"> <i
+                                      class="fas fa-envelope px-1"></i>Contacto</a>
+                          </li>
+                      </ul>
+
+                      <form class="d-flex justify-content-center align-items-center" role="search">
+                        <button class="btn btn-transparent me-2 text-white border bg-login" data-bs-toggle="modal"
+                          data-bs-target="#loginModal" type="button">
+                          Login
+                        </button>
+                        <button class="btn text-white bg-signup" data-bs-toggle="modal" data-bs-target="#registerModal"
+                          type="button">
+                          Registrarse
+                        </button>
+                      </form>
+          
+                      <!-- Modal de Iniciar sesión -->
+                      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                              <h5 class="modal-title text-white" id="loginModalLabel">Iniciar sesión</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="username" class="form-label">Usuario</label>
+                                  <input type="text" class="form-control" id="username" placeholder="Ingresa tu usuario">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="password" class="form-label">Contraseña</label>
+                                  <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-primary">Iniciar sesión</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <!-- Modal de Registrarse -->
+                      <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                              <h5 class="modal-title text-white" id="registerModalLabel">Registrarse</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="registerUsername" class="form-label">Usuario</label>
+                                  <input type="text" class="form-control" id="registerUsername" placeholder="Ingresa tu usuario">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="registerEmail" class="form-label">Correo electrónico</label>
+                                  <input type="email" class="form-control" id="registerEmail"
+                                    placeholder="Ingresa tu correo electrónico">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="registerPassword" class="form-label">Contraseña</label>
+                                  <input type="password" class="form-control" id="registerPassword"
+                                    placeholder="Ingresa tu contraseña">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-primary">Registrarse</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      </header>
+
+<!-- Main -->
+<main>
+
+    <div class="container bg-color rounded-3 mb-2 ">
+
+        <div class="mt-2">
+            <h2 class="display-6 fw-bold text-center pt-2 h2-first ">SERVICIOS PRINCIPALES</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mx-auto pb-3 ">
+            <!-- Servicio 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.itconsultors.com/images/blog/web-dev.jpg" class="card-img-top" alt="Servicio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web</h5>
+                        <p class="card-text">Creamos sitios web atractivos , Dinámicos, funcionales para tu negocio. </p>
+                        <a href="#" class="btn btn-primary bg-signup">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Servicio 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://wvw.conzultek.com/hubfs/mantenimiento-de-redes.png" class="card-img-top" alt="Servicio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mantenimiento de Redes</h5>
+                        <p class="card-text">Garantizamos el óptimo funcionamiento de tus sistemas de red.</p>
+                        <a href="#" class="btn btn-primary bg-signup">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Servicio 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.obicex.es/sites/obicex/files/styles/blog_desktop/public/images/blog/que-es-seguridad-informatica.jpg?itok=ua3Ux0wS" class="card-img-top" alt="Servicio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Seguridad Informática</h5>
+                        <p class="card-text">Protegemos tu información con soluciones de seguridad avanzadas.</p>
+                        <a href="#" class="btn btn-primary bg-signup">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Servicio 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://itelco.com.co/wp-content/uploads/2021/09/consultoria-tecnologica-empresarial.jpeg" class="card-img-top" alt="Servicio 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Asesoría Tecnológica</h5>
+                        <p class="card-text">Te brindamos asesoramiento experto para optimizar tus sistemas.</p>
+                        <a href="#" class="btn btn-primary bg-signup ">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>
+
+
+
+ <div class="container bg-suscribe rounded-3 mb-2 ">
+
+    <div class="mt-2">
+        <h2 class="display-6 fw-bold text-center pt-2 text-white ">SERVICIOS SECUNDARIOS</h2>
+    </div>
+    
+    <div class="row  rounded-3 ">
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mx-auto pb-3 ">
+
+
+            <div class="col">
+            <div class="card">
+                <img src="./img/Ecommerce.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Venta de Cómputo</h5>
+                <p class="card-text">Ofrecemos amplia gama de equipos potentes para potenciar tu productividad y rendimiento.</p>
+                <button type="button" class="btn btn-color btn-block " >
+                    Ver mas
+                </button>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card" >
+                <img src="./img/Call center.gif" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Soporte Remoto</h5>
+                  <p class="card-text">Ofrecemos servicios de soporte técnico para resolver problemas de manera rápida y eficiente. </p>
+                  <button type="button" class="btn btn-color">
+                    Ver mas
+                  </button>
+                </div>
+              </div>
+            </div>
+    
+
+            <div class="col">
+                <div class="card">
+                    <img src="./img/security.gif" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                      <h5 class="card-title">Cámaras CCTV</h5>
+                      Ofrecemos soluciones de videovigilancia para garantizar la seguridad de tu empresa.</p>
+                      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#kyotoModal">
+                        Ver mas
+                      </button>
+                    </div>
+                  </div>
+            </div>
+        
+
+
+            <div class="col">
+                <div class="card">
+                    <img src="./img/network.gif" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                      <h5 class="card-title">Networking</h5>
+                      <p class="card-text">Ofrecemos soluciones para mejorar la conectividad, seguridad tu red empresarial.</p>
+                      <button type="button" class="btn btn-color"data-bs-toggle="modal" data-bs-target="#parisModal">
+                        Ver mas
+                      </button>
+                    </div>
+                  </div>
+            </div>
+
+    </div>
+    </div>  
+</div>  
+
+</main>
+
+
+        <!--Footer-->
+
+        
+          <footer class="bg-header text-light">
+            <div class="container py-1 pt-4">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                  <a class="navbar-brand text-white glowing tex d-flex align-items-center justify-content-start" style="font-size: 16px;" href="#">
+                    <img src="./img/logo-white.png" alt="Logo" width="30" height="30" class="d-inline-block">
+                    <span class="ms-2">FuturGlobalTech</span>
+                </a>
+                
+                  
+                  <p class="mt-3" style="font-size: 14px;">FuturGlobalTech es una empresa líder en soluciones tecnológicas y venta de equipos de cómputo, proporcionando innovación y eficiencia a través de productos y servicios especializados.
+                  </p>
+
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-facebook-f" ></i></a></li>
+                    <li class="list-inline-item"><a href="https://x.com/home" class="text-decoration-none text-white icon-bg" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://pe.linkedin.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/"class="text-decoration-none text-white icon-bg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-2 "style="font-size: 16px;" >Enlaces Rápidos</h5>
+                  <hr class="mt-2 mb-2">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="./index.html" class="link text-decoration-none text-white"> <i
+                          class="fas fa-home me-3"></i>Inicio</a></li>
+                    <li><a href="./nosotros.html" class="link text-decoration-none text-white"><i
+                          class="fas fa-users me-3"></i>Nosotros</a></li>
+                    <li><a href="./productos.html " class="link text-decoration-none text-white"><i
+                          class="fas fa-box-open  me-3"></i>Productos</a></li>
+                    <li><a href="./servicios.html" class="link text-decoration-none text-white"><i
+                          class="fas fa-tools me-3"></i>Servicios</a></li>
+                    <li><a href="./contacto.html" class="link text-decoration-none text-white"><i
+                          class="fas fa-envelope  me-3"></i>Contacto</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-1" style="font-size: 16px;">Contacto</h5>
+                  <hr class="mt-2 mb-2">
+                  <ul class="list-unstyled mb-4">
+                    <li><i class="fa-solid fa-location-dot me-3"></i> Dirección, Ciudad</li>
+                    <li><i class="fas fa-envelope me-3"></i> ventas@futurglobaltech.com</li>
+                    <li><i class="fas fa-phone me-3"></i> +1 (123) 456-7890</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-1" style="font-size: 16px;">Políticas</h5>
+                  <hr class="mt-2 mb-2">
+                  <ul class="list-unstyled mb-2">
+                    <li><a href="#" class="text-decoration-none text-white">Política de Privacidad</a></li>
+                    <li><a href="#"class="text-decoration-none text-white">Términos y Condiciones</a></li>
+                    <li><a href="#"class="text-decoration-none text-white" >Política de Cookies</a></li>
+                  </ul>
+                  <div class="container pt4 d-flex justify-content-start">
+                    <a href="#" class="text-decoration-none text-white text-center">
+                        <i class="fas fa-book-open fa-3x"></i>
+                    </a>
+                  </div>
+                
+                </div>
+              </div>
+              <hr class="mt-2 mb-2 ">
+              <div class="text-center mb-2 p-0">
+                <p>  &copy; 2024 FuturGlobalTech - Derechos Reservados </p>
+              </div>
+            </div>
+          </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
