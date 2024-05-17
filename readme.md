@@ -36,10 +36,13 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 
 ## DESKTOP
-![App Screenshot](https://i.ibb.co/GMvxLrN/Mi-V-deo.gif)
+![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
+
+
 ## TABLET
 
 ![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
+
 ## MOBILE
 
 
