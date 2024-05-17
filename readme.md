@@ -40,7 +40,7 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 ## DESKTOP
 
-
+![Desktop](https://i.ibb.co/D7kctMG/web-desktop.gif)
 
 ## TABLET
 ![Desktop](https://i.ibb.co/jTSDgtK/tableta.gif)
