@@ -23,7 +23,7 @@ Es una ventana emergente o pop-up que se superpone sobre el contenido principal 
 ### CAROUSEL
 Es un componente de interfaz de usuario que se utiliza para mostrar una serie de elementos 
 
-![App Screenshot](https://i.ibb.co/zfcxKdK/CARROUSEL.gif)
+![App Screenshot](https://i.ibb.co/zfcxKdK/caarousel03.gif)
 
 ### NAVBAR
 Es un componente que proporciona una estructura predefinida y estilos CSS para crear barras de navegación responsivas.
