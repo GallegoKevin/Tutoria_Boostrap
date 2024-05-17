@@ -18,17 +18,20 @@ Es un componente flexible y extensible que se utiliza para representar contenido
 ## MODAL
 Es una ventana emergente o pop-up que se superpone sobre el contenido principal de una página web.
 
-![Descripción del GIF](https://i.ibb.co/9bn9x0y/modal2.gif)
+![App Screenshot](https://i.ibb.co/9bn9x0y/modal2.gif)
 
 ### CAROUSEL
 Es un componente de interfaz de usuario que se utiliza para mostrar una serie de elementos 
 
-![App Screenshot](https://i.ibb.co/28K9R9c/CARROUSEL.gif)
+![App Screenshot](https://i.ibb.co/zFj3xGX/carousel-finish.gif)
+
+
+
 
 ### NAVBAR
 Es un componente que proporciona una estructura predefinida y estilos CSS para crear barras de navegación responsivas.
 
-![App Screenshot](https://i.ibb.co/6XG4997/Navbar.gif)
+![App Screenshot](https://i.ibb.co/HYdGbfC/nav.gif)
 
 
 
@@ -37,14 +40,12 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 ## DESKTOP
 
-![Desktop](https://i.ibb.co/GMvxLrN/Mi-V-deo.gif)
+![tablet](https://i.ibb.co/cvZHmjH/finish.gif)
 
 ## TABLET
+![tablet](https://i.ibb.co/jTSDgtK/tableta.gif)
 
-![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
+
 ## MOBILE
 
-
-
-
-![App Screenshot](https://i.ibb.co/CQjTbt6/tablet.gif)
+![mobile](https://i.ibb.co/Gfw84j6/celular.gif)
