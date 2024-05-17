@@ -40,15 +40,15 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 ## DESKTOP
 
-![Desktop](https://i.ibb.co/D7kctMG/web-desktop.gif)
+![pc]([https://i.ibb.co/jTSDgtK/tableta.gif](https://i.ibb.co/D7kctMG/web-desktop.gif))
 
 ## TABLET
-![Desktop](https://i.ibb.co/jTSDgtK/tableta.gif)
+![tablet](https://i.ibb.co/jTSDgtK/tableta.gif)
 
 
 ## MOBILE
 
-![Desktop](https://i.ibb.co/Gfw84j6/celular.gif)
+![mobile](https://i.ibb.co/Gfw84j6/celular.gif)
 
 
-![App Screenshot](https://i.ibb.co/CQjTbt6/tablet.gif)
+
