@@ -19,15 +19,15 @@
   
     font-weight: 600; 
    
-    
+   &:hover{
+        color: #790220 !important;
+        font-weight: 600;
+        animation: cambioColor 04s infinite alternate;
+      
+      }
   }
   
-  .nav-link:hover{
-    color: #790220 !important;
-    font-weight: 600;
-    animation: cambioColor 04s infinite alternate;
-  
-  }
+ 
   
   .nav--active {
     color: #790220 !important;
@@ -81,20 +81,24 @@
     background: linear-gradient(90deg, #FF5733, #FF3333);
     border: none !important;
     font-weight: 600;
+   &:hover{
+        background: linear-gradient(90deg, #b0a3f7, #4133ff);
+        border: none !important;
+      } ;
+    
   }
   
-  .bg-signup:hover{
-    background: linear-gradient(90deg, #b0a3f7, #4133ff);
-    border: none !important;
-  } ;
+ 
   .bg-login{
     background: transparent;
     font-weight: 600;
+    
+    &:hover{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(128, 128, 128, 0.5) 100%);
+        backdrop-filter: blur(5px);
+      } 
   }
-  .bg-login:hover{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(128, 128, 128, 0.5) 100%);
-    backdrop-filter: blur(5px);
-  } 
+  
   
   /*Toogler*/
   .navbar-toggler {
@@ -113,12 +117,16 @@
     color: white !important;
     border: none !important;
     font-weight: 600 !important;
-  }
-  
-  .btn-color:hover{
+
+  &:hover{
     background: linear-gradient(135deg, #f03693, #e4f046);
    
   }
+
+
+  }
+  
+
   
   
   .btn-red {
@@ -204,9 +212,13 @@
     border: 1px solid transparent;
     padding: 3px 10px;
     border-radius: 4px;
+
+
+ &:hover{
+        background: linear-gradient(90deg, rgba(0, 140, 255, 0.5) 0%, rgba(158, 214, 236, 0.5) 100%);
+        backdrop-filter: blur(5px);
+      }
+      
+
   }
-  .icon-bg:hover{
-    background: linear-gradient(90deg, rgba(0, 140, 255, 0.5) 0%, rgba(158, 214, 236, 0.5) 100%);
-    backdrop-filter: blur(5px);
-  }
-  
+ 
