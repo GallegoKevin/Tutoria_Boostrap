@@ -35,25 +35,14 @@ Es un componente que proporciona una estructura predefinida y estilos CSS para c
 
 
 
-
-
 # `RESULTADO FINAL WEBSITE RESPONSIVE WITH BOOSTRAP`  
 
 
 ## DESKTOP
-
-
-
 ![App Screenshot](https://i.ibb.co/GMvxLrN/Mi-V-deo.gif)
 ## TABLET
 
-
-
-
 ![App Screenshot](https://i.ibb.co/XLkF0CG/phone.gif)
 ## MOBILE
-
-
-
 
 ![App Screenshot](https://i.ibb.co/CQjTbt6/tablet.gif)
