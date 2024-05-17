@@ -11,27 +11,27 @@
 ### BUTTONS 
 Son elementos interactivos que nos permiten realizar acciones, como enviar formularios, activar funciones o enlaces, entre otras cosas. 
 
-![App Screenshot](https://i.ibb.co/CJBQbt8/buttons.gif)
+![App Screenshot](./img-readme/buttons.gif)
 ### CARD
 
 Es un componente flexible y extensible que se utiliza para representar contenido en una interfaz de usuario
 
-![App Screenshot](https://i.ibb.co/vw4pLmf/card.gif)
+![App Screenshot](./img-readme/card.gif)
 
 ## MODAL
 Es una ventana emergente o pop-up que se superpone sobre el contenido principal de una página web.
 
-![App Screenshot](https://i.ibb.co/jf77bK6/modal.gif)
+![App Screenshot](./img-readme/modal.gif)
 
 ### CAROUSEL
 Es un componente de interfaz de usuario que se utiliza para mostrar una serie de elementos 
 
-![App Screenshot](https://i.ibb.co/28K9R9c/CARROUSEL.gif)
+![App Screenshot](./img-readme/carousel.gif)
 
 ### NAVBAR
 Es un componente que proporciona una estructura predefinida y estilos CSS para crear barras de navegación responsivas.
 
-![App Screenshot](https://i.ibb.co/6XG4997/Navbar.gif)
+![App Screenshot](./img-readme/Navbar.gif)
 
 
 
