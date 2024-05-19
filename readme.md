@@ -1,7 +1,7 @@
 # BOOSTRAP
 
 
-### Boostrap:
+
 Es un framework de código abierto que proporciona herramientas y estilos predefinidos para el desarrollo de sitios web y aplicaciones web responsivas.
 
 ## COMPONENTES USADOS EN EL DISEÑO DE RESPONSIVE WEBSITE CON BOOSTRAP
